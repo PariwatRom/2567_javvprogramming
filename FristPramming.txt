@@ -1,0 +1,17 @@
+FristPramming
+*********************
+studentId:2413110632
+studentName:Pariwat Romphun
+Topic:FristPramming
+Date:11/20/2024
+*********************
+public class FristPramming
+{
+	pubic static void main (String[] args){
+	    System.out.println("studentId:"+"2413110632")
+	    System.out.println("studentName:"+"Pariwat"+"Romphun")
+            System.out.println("Topic:"+"FristPramming")
+	    System.out.println("Date:"+"11/20/2024")
+	    JoptionPane.QUESTION_MESSAGE
+	}
+}
