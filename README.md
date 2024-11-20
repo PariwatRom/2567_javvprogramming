@@ -1,1 +1,1 @@
-# 2567_Javaprogramming
+# 2567_JavaProgramming
