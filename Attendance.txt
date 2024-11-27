@@ -1,4 +1,4 @@
 studentId:2413110632
 studentName:Pariwat Romphun
-Topic:gitHub
+Topic:LabSheet#1: Display, Variable and Input
 Date:11/27/2024
