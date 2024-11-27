@@ -25,13 +25,13 @@ public class JavaEample1 {
 		float totalwithVat = totalPriceofProduct+(totalPriceofProduct*7/100);
 		System.out.println("Add VAT 7% is  "+frm.format(totalwithVat)+" baht.");
 		System.out.println(); // เว้น1บรรทัด
-		//Output using String,Format and printf
-		String FrmtotalwithVat = String.format("%,2f");
+		//Output using String,Format and 
+		String frmtotalwithVat = String.format("%,.2f",totalwithVat);
 		System.out.println("Output using String,Format and printf");
-		System.out.println("Add VAT 7%  "+FrmtotalwithVat+" baht.");
+		System.out.println("Add VAT 7%  "+frmtotalwithVat+" baht.");
 		System.out.println(); // เว้น1บรรทัด
 		System.out.println("Output using printf");
-		System.out.println("Add VAT 7%% is %,.2f "+totalwithVat);
+		System.out.printf("Add VAT 7%% is %,.2f ",totalwithVat);
 		
 		input.close();
 		
