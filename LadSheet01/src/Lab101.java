@@ -1,33 +1,25 @@
 import java.util.*;
 import java.text.*;
 public class Lab101 {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Scanner input = new Scanner(System.in);
-		DecimalFormat frm = new DecimalFormat("#,###.00");
-		
-		System.out.print("Input Product Name     : ");
-		String productName = input.nextLine();
-		System.out.print("Input Product Unit     : ");
-		int productUnit = input.nextInt();
-		System.out.print("Input Product per unit : ");
-		float productPrice = input.nextFloat();
-		
-		System.out.println("------------------------------------------");
-		float totalPriceofProduct = productUnit *productPrice;
-		System.out.println("Total Price is "+frm.format(totalPriceofProduct) +" baht.");
-		System.out.println("------------------------------------------");
-		
-		System.out.print("How many discoount (%)   : ");
-		int discount = input.nextInt();
-		System.out.println("------------------------------------------");
-		float totaldiscount = ((totalPriceofProduct*discount/100));
-		System.out.println("Discoount from 15%      "+totaldiscount+" baht.");
-		
-		float amount = totalPriceofProduct-totaldiscount;
-		System.out.println("How many discoount (%)  "+frm.format(amount)+"baht.");
-		
-	}
-
+  public static void main(String args[]) {
+    Scanner scanner = new Scanner(System.in);
+      System.out.print("Input Product Name  : ");
+      String prodName = scanner.nextLine();
+      System.out.print("Input Product Unit  : ");
+      int prodUnit = scanner.nextInt();
+      System.out.print("Input Product Price per unit    : ");
+      double prodPrice = scanner.nextDouble();
+      System.out.println("------------------------------------------");
+      double totalPrice = prodUnit*prodPrice;
+      DecimalFormat frm = new DecimalFormat("#,###.00");
+      System.out.println("Total Price is "+ frm.format(totalPrice)+ " baht.");
+      System.out.println("------------------------------------------");
+      System.out.print("How many discount (%)   : ");
+      double dis = scanner.nextDouble();
+      double totalDis = (dis /100) * totalPrice ;
+      System.out.println("------------------------------------------");
+      double totalAmount = totalPrice - totalDis;
+      System.out.println("Discount from "+dis+"%        "+frm.format(totalDis)+ " baht.");
+      System.out.println("Amount to be paid         "+frm.format(totalAmount)+" baht.  ");
+  }
 }
