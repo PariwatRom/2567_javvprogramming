@@ -27,8 +27,8 @@ public class Lab403 {
 				initalLetter = (initalLetter+fName.charAt(+1)).toUpperCase();
 				initalLetter = initalLetter+".";
 			}
-		}//
+		}//end for
 		return initalLetter;
-	}
+	}//end of abbreviatName ()
 
 }
