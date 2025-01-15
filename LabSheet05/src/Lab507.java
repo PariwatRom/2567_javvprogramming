@@ -12,7 +12,7 @@ public class Lab507 {
 		showOdd(nums);
 	}
 	    public static void showEven(int[] nums) {
-	        String evenNumbers = "List of even number:\n ";
+	        String evenNumbers = "List of even number:\n";
 	        for (int num : nums) {
 	            if (num % 2 == 0) {
 	                evenNumbers += num + " ";
@@ -22,7 +22,7 @@ public class Lab507 {
 	    }
 
 	    public static void showOdd(int[] nums) {
-	        String oddNumbers = "List of odd number:\n ";
+	        String oddNumbers = "List of odd number:\n";
 	        for (int num : nums) {
 	            if (num % 2 != 0) { 
 	                oddNumbers += num + " ";
