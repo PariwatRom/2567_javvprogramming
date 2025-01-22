@@ -1,4 +1,4 @@
 studentId:2413110632
 studentName:Pariwat Romphun
-Topic:LabSheet #6: Class and Object
-Date:01/15/2025
+Topic:Lab Sheet #7: - Encapsulation Concep
+Date:01/22/2025
