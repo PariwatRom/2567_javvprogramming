@@ -1,4 +1,6 @@
 studentId:2413110632
 studentName:Pariwat Romphun
-Topic:Lab Sheet #7: - Encapsulation Concep
-Date:01/22/2025
+Topic:Lab Sheet #8:
+- Array Object
+- Composition Concept
+Date:01/29/2025
