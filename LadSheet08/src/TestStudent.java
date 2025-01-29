@@ -40,25 +40,26 @@ public class TestStudent {
 				if (student.isPass()) {
 					System.out.print(">>"+student.getName()+"("+student.getScore()+")");
 				}
+				scan.close();
+			}
+			
+			public static String findGrade(int score) {
+				if(score>=80) return "A";
+				else if(score>=76) return "B+";
+				else if(score>=70) return "B";
+				else if(score>=66) return "C+";
+				else if(score>=60) return "C";
+				else if(score>=56) return "D+";
+				else if(score>=50) return "D";
+				else return "F";
 			}
 		
-		public static String findGrade(int score) {
-			if (score>=80) return "A";
-			else if (score>=76) return "B+";
-			else if (score>=70) return "B";
-			else if (score>=66) return "D+";
-			else if (score>=60) return "D";
-			else if (score>=56) return "C+";
-			else if (score>=50) return "C";
-			else return "F";
-		}
-		
-		/*public static void Line() {
-			for (int i=1;i<60;i++) {
-				System.out.print("-");
+			public static void Line() {
+				for(int i=1;i<=60;i++) {
+					System.out.print("-");			
+				}
+				System.out.println();
 			}
-			System.out.print();
-		}*/
 	}
 
 }

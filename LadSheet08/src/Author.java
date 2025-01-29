@@ -12,7 +12,7 @@ public class Author {
 		this.name = name;
 		this.email = email ;
 	}
-	public String grtName() {
+	public String getName() {
 		return this.name;
 		
 	}

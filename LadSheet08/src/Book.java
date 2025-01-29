@@ -17,19 +17,20 @@ public class Book {
 		this.author = null;
 		this.page = 0;
 	}
-	public  String grtTitle()  {
-		
+	public  String getTitle()  {
+		return this.title;
 	}
-	public Author author() {
-		
+	public Author getauthor() {
+		return this.author;
 	}
 	public void setPage (int page) {
-		
+		this.page = page;
 	}
 	public int getpage() {
-		
+		return this.page;
 	}
 	public String toString() {
-		
+		return getTitle()+ " has " + getpage()+" pages write by " 
+				+ getauthor();	
 	}
 }
