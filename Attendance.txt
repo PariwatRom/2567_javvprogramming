@@ -1,6 +1,6 @@
 studentId:2413110632
 studentName:Pariwat Romphun
-Lab Sheet #9:
-- Inheritance  Concept
-- Composition Concept
-Date:02/5/2025
+Lab Sheet #10:
+- Inheritance Concept
+- Abstract and Interface
+Date:02/19/2025
