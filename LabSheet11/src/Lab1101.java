@@ -31,10 +31,16 @@ public class Lab1101 {
 					int studentSection = Integer.parseInt(data[3]);
 					
 					if(studentSection==sec) {
-						System.out.printf("%s %s\t%s \t%s%n ",data[0],data[2],data[3],data[5]);
+						double minTerm = Double.parseDouble(data[4]);
+						double finalScore = Double.parseDouble(data[5]);
+						System.out.printf("%s %s\t%.2f\t%.2f \t%s%n",data[0],data[2],midTerm,
+								finalScore,determineResult(midTerm,finalScore));
 					}
 				}
 			}
+			public static String determineResult(double mid,double fin) {
+				return (mid+fin) <=40?"Fail":"Pass";		
+			}//end of determineResult()
 			
 		}
 
